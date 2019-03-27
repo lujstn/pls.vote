@@ -27,24 +27,17 @@ export default class Index extends React.Component<*, State> {
   fetchIPLocation = () => {
     this.setState({ loading: true })
     axios
-      .get(`http://ip-api.com/json/?fields=status,country,countryCode`)
+      .get(`https://freegeoip.app/json/`)
       .then(result => {
         const {
-          data: { status, country, countryCode },
+          data: { country_code, country_name },
         } = result
-        if (status !== 'success') {
-          this.setState({
-            loading: false,
-            error: true,
-          })
-        } else {
-          this.setState({
-            loading: false,
-            error: false,
-            country: country,
-            countryCode: countryCode.toLowerCase(),
-          })
-        }
+        this.setState({
+          loading: false,
+          error: false,
+          country: country_name,
+          countryCode: country_code.toLowerCase(),
+        })
       })
       .catch(error => {
         this.setState({ loading: false, error })
