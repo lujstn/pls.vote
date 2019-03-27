@@ -51,6 +51,7 @@ export default class Index extends React.Component<*, State> {
       })
   }
 
+  /* todo: replace failed location with a country picker based on md files */
   render() {
     const { countryCode } = this.state
     return (
@@ -63,7 +64,7 @@ export default class Index extends React.Component<*, State> {
             <Subtitle>
               We couldn&#39;t get your location. How about the UK site?
             </Subtitle>
-            <ExternalLink nostyle href={'/' + countryCode}>
+            <ExternalLink nostyle href="/uk">
               <Button>Take me there</Button>
             </ExternalLink>
           </Layout>

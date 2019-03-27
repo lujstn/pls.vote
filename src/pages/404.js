@@ -5,6 +5,7 @@ import '../styles/index.css'
 
 export default class ErrorPage extends React.Component<*> {
   render() {
+    /* todo: replace with a country picker based on md files */
     return (
       <Layout>
         <Title large>
