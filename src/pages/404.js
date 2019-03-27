@@ -15,7 +15,7 @@ export default class ErrorPage extends React.Component<*> {
         <Copy>
           This could be because there&#39;s no voting page for this country yet.
         </Copy>
-        <ExternalLink href="/">Go back home&nbsp;&rsaquo;</ExternalLink>
+        <ExternalLink href="/gb">Visit the UK page&nbsp;&rsaquo;</ExternalLink>
       </Layout>
     )
   }

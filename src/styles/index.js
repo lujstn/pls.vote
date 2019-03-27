@@ -29,7 +29,9 @@ export const Title = styled.h1`
   ${props =>
     props.small &&
     css`
+      width: fit-content;
       font-size: 1.5em;
+      margin-bottom: 0;
     `}
 `
 
@@ -52,6 +54,7 @@ export const Subtitle = styled.h3`
 export const Link = styled(GatsbyLink)`
   font-family: 'Fauna One', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
+  width: fit-content;
   font-weight: 600;
   text-decoration: none;
   opacity: 1;
@@ -262,7 +265,7 @@ export const TitleGroupTextContainer = styled.div`
   }
   p {
     margin-top: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 30px;
   }
 
   @media all and (max-width: ${BREAKPOINT_MOB}px) {
@@ -281,10 +284,10 @@ export const Content = styled.div`
 `
 
 export const Page = styled.div`
-  min-height: calc(100vh - 30px - 10em);
+  min-height: calc(100vh - 30px - 13em);
 
   @media all and (max-width: ${BREAKPOINT_MOB}px) {
-    min-height: calc(100vh - 1em - 9em);
+    min-height: calc(100vh - 1em - 12.5em);
   }
 `
 
