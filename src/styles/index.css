@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,400i,600|Fauna+One|Merriweather:700');
+html {
+    overflow-y: auto;
+}
+body, #___gatsby, #___gatsby > * {
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    background: #DDD5D0;
+}
