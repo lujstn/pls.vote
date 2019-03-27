@@ -120,6 +120,13 @@ export const Copy = styled.p`
         outline: none;
       }
     `}
+
+  ${props =>
+    props.small &&
+    css`
+      font-size: 0.9em;
+      color: ${BABY_NIGHT_LIGHT};
+    `}
 `
 
 export const List = styled.ul`
@@ -143,8 +150,8 @@ export const Layout = styled(LayoutComponent)`
   flex-grow: 1;
 
   @media all and (max-width: ${BREAKPOINT_MOB}px) {
-    padding: 1em 2em 1em 2em;
-    width: calc(100% - 4em);
+    padding: 1em 1.5em 1em 1.5em;
+    width: calc(100% - 3em);
   }
 `
 
@@ -209,6 +216,9 @@ export const TitleGroup = styled.div`
   @media all and (max-width: ${BREAKPOINT_BUTTONS}px) {
     display: block;
   }
+  @media all and (max-width: ${BREAKPOINT_MOB}px) {
+    margin-top: 1em;
+  }
 `
 
 export const TitleGroupButtonContainer = styled.div`
@@ -249,6 +259,20 @@ export const TitleGroupTextContainer = styled.div`
   }
   h3 {
     margin-top: 0;
+  }
+  p {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  @media all and (max-width: ${BREAKPOINT_MOB}px) {
+    h3 {
+      margin-top: 0.5em;
+    }
+    p {
+      margin-top: 1em;
+      margin-bottom: 0;
+    }
   }
 `
 

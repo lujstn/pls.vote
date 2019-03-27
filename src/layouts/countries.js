@@ -44,6 +44,10 @@ class View extends React.Component<FrontmatterProps> {
           <TitleGroupTextContainer>
             <Title large>{title}</Title>
             <Subtitle>{description}</Subtitle>
+            <Copy small>
+              You&#39;ve been sent to this page because of your internet
+              location
+            </Copy>
           </TitleGroupTextContainer>
           <TitleGroupButtonContainer>
             <ExternalLink nostyle href={registration.url}>
@@ -67,11 +71,11 @@ class View extends React.Component<FrontmatterProps> {
         {registration.online ? (
           <Card>
             <Subtitle>
-              In {country_name}, you can register online to vote.
+              🌐 In {country_name}, you can register online to vote
             </Subtitle>
             <Content>
               <Copy>
-                ⌛ It&#39;ll take you about {registration.est_time} to sign up.
+                It&#39;ll take you about {registration.est_time} to sign up.
                 <br />
               </Copy>
             </Content>
@@ -79,7 +83,7 @@ class View extends React.Component<FrontmatterProps> {
         ) : (
           <Card>
             <Subtitle>
-              Unfortunately, you can&#39;t register online in {country_name}
+              🌐 Unfortunately, you can&#39;t register online in {country_name}
             </Subtitle>
             <Content>
               <Copy>
@@ -100,7 +104,7 @@ class View extends React.Component<FrontmatterProps> {
         )}
 
         <Card>
-          <Subtitle>You&#39;ll need to meet some criteria to vote</Subtitle>
+          <Subtitle>✅ You&#39;ll need to meet some criteria to vote</Subtitle>
           <Content>
             <Copy>To vote in {country_name}, you must be:</Copy>
             {this.renderQualifiers(qualifiers)}

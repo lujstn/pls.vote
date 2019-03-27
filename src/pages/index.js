@@ -46,22 +46,24 @@ export default class Index extends React.Component<*, State> {
 
   /* todo: replace failed location with a country picker based on md files */
   render() {
-    const { countryCode } = this.state
+    const { loading, error, countryCode } = this.state
     return (
       <>
-        {this.state.loading ? null : countryCode ? (
-          <Redirect noThrow to={'/' + countryCode} />
-        ) : (
-          <Layout>
-            <Title>plsvote</Title>
-            <Subtitle>
-              We couldn&#39;t get your location. How about the UK site?
-            </Subtitle>
-            <ExternalLink nostyle href="/uk">
-              <Button>Take me there</Button>
-            </ExternalLink>
-          </Layout>
-        )}
+        {!loading ? (
+          countryCode != null ? (
+            <Redirect noThrow to={'/' + countryCode} />
+          ) : error ? (
+            <Layout>
+              <Title>plsvote</Title>
+              <Subtitle>
+                We couldn&#39;t get your location. How about the UK site?
+              </Subtitle>
+              <ExternalLink nostyle href="/uk">
+                <Button>Take me there</Button>
+              </ExternalLink>
+            </Layout>
+          ) : null
+        ) : null}
       </>
     )
   }
