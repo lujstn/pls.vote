@@ -7,9 +7,9 @@ export default class Index extends React.Component<*> {
   render() {
     return (
       <Layout>
-        <Title>plsvote</Title>
+        <Title>pls.vote</Title>
         <Subtitle>
-          Welcome to plsvote. We&#39;re working on our country selector - till then, how about going to our UK site?
+          Welcome to pls.vote. We&#39;re working on our country selector - till then, how about going to our UK site?
         </Subtitle>
         <ExternalLink nostyle href="/gb">
           <Button>Take me there</Button>
