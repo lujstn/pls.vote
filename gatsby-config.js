@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'plsvote',
+    title: 'pls.vote',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'plsvote',
-        short_name: 'plsvote',
+        name: 'pls.vote',
+        short_name: 'pls.vote',
         start_url: '/',
         background_color: '#DDD5D0',
         theme_color: '#272932',

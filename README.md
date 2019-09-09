@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-    plsvote
+    pls.vote
 </h1>
 
 a project by [@lucasjohnston](https://www.twitter.com/lucasjohnston)

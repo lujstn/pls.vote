@@ -57,7 +57,7 @@ class View extends React.Component<FrontmatterProps> {
               href={
                 'mailto:' +
                 reminder.email_address +
-                '?subject=🗳️ Reminder from plsvote&body=' +
+                '?subject=🗳️ Reminder from pls.vote&body=' +
                 reminder.email_body
               }
             >

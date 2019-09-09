@@ -17,7 +17,7 @@ const LayoutComponent = (props: {
 }) => (
   <>
     <Helmet>
-      <title>plsvote</title>
+      <title>pls.vote</title>
       <meta charSet="utf-8" />
       <meta
         name="description"
@@ -25,7 +25,7 @@ const LayoutComponent = (props: {
       />
       <meta
         name="keywords"
-        content="register to vote, register to vote in election, voting registration, sign up to vote, sign up, register, registration, register to vote worldwide, living aboard, register to vote abroad, election, general election, primaries, voting, vote, plsvote, pls, vote, voting simple, click to vote, one click voting, lucas, johnston, lucas johnston, monzo, monzo bank, google, imperial, imperial college, starling, starling bank, software engineer, product manager, youngest engineer, youngest software engineer, 17 years old, 18 years old, 17 year old, 18 year old, programmer, young programmer, youngest programmer"
+        content="register to vote, register to vote in election, voting registration, sign up to vote, sign up, register, registration, register to vote worldwide, living aboard, register to vote abroad, election, general election, primaries, voting, vote, pls.vote, pls, vote, voting simple, click to vote, one click voting, lucas, johnston, lucas johnston, monzo, monzo bank, google, imperial, imperial college, starling, starling bank, software engineer, product manager, youngest engineer, youngest software engineer, 17 years old, 18 years old, 17 year old, 18 year old, programmer, young programmer, youngest programmer"
       />
       <meta name="robots" content="index, follow" />
       <meta
@@ -62,7 +62,7 @@ const LayoutComponent = (props: {
     <>
       <div className={props.className}>
         <Link nostyle to="/">
-          <Title small>🗳️ plsvote</Title>
+          <Title small>🗳️ pls.vote</Title>
         </Link>
         <Page>{props.children}</Page>
         <Footer>
@@ -73,7 +73,7 @@ const LayoutComponent = (props: {
             <Copy active>
               This site costs £80/year to run
               <br />
-              Buy me a coffee to help plsvote going! ☕
+              Buy me a coffee to help pls.vote going! ☕
             </Copy>
           </ExternalLink>
         </Footer>

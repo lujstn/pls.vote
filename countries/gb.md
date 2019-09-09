@@ -11,7 +11,7 @@ registration:
     est_time: "5 minutes"
 reminder:
     email_address: "1week@followupthen.com"
-    email_body: "Hey!%0A%0AThis is a reminder sent from plsvote, reminding you to register to vote.%0AIt'll take you around 5 minutes, and gives you the chance to make sure your voice is heard 💪%0A%0AYou can sign up here: https://pls.vote/gb%0A%0ALots of love,%0Aplsvote%0A❤️%0A%0A"
+    email_body: "Hey!%0A%0AThis is a reminder sent from pls.vote, reminding you to register to vote.%0AIt'll take you around 5 minutes, and gives you the chance to make sure your voice is heard 💪%0A%0AYou can sign up here: https://pls.vote/gb%0A%0ALots of love,%0Aplsvote%0A❤️%0A%0A"
 qualifiers:
     - "a UK Citizen"
     - "a qualifying Commonwealth citizen resident living in the UK"
