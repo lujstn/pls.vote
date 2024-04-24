@@ -4,22 +4,19 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       rules: [
         {
           test: /\.md$/,
-          use: 'raw-loader'
+          use: 'raw-loader',
         },
       ],
     },
   })
 }
-const path = require("path")
+const path = require('path')
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const CountriesView = path.resolve(`src/layouts/countries.js`)
   graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [] }
-        limit: 1000
-      ) {
+      allMarkdownRemark {
         edges {
           node {
             frontmatter {
@@ -29,7 +26,7 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
