@@ -1,5 +1,5 @@
 ---
-path: "/gb"
+path: "/gb/"
 country: "gb"
 country_name: "the United Kingdom"
 title: "Voting in the United Kingdom  🇬🇧"

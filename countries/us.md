@@ -1,5 +1,5 @@
 ---
-path: "/us"
+path: "/us/"
 country: "us"
 country_name: "the United States"
 title: "Voting in the US 🇺🇸"
