@@ -25,7 +25,7 @@ const LayoutComponent = (props: {
       />
       <meta
         name="keywords"
-        content="register to vote, register to vote in election, voting registration, sign up to vote, sign up, register, registration, register to vote worldwide, living aboard, register to vote abroad, election, general election, primaries, voting, vote, pls.vote, pls, vote, voting simple, click to vote, one click voting, lucas, johnston, lucas johnston, monzo, monzo bank, google, imperial, imperial college, starling, starling bank, software engineer, product manager, youngest engineer, youngest software engineer, 17 years old, 18 years old, 17 year old, 18 year old, programmer, young programmer, youngest programmer"
+        content="register to vote, register to vote in election, voting registration, sign up to vote, sign up, register, registration, register to vote worldwide, living aboard, register to vote abroad, election, general election, primaries, voting, vote, pls.vote, pls, vote, voting simple, click to vote, one click voting, lucas, johnston, lucas johnston kurilov, monzo, monzo bank, google, imperial, imperial college, starling, starling bank, software engineer, product manager, youngest engineer, youngest software engineer, 17 years old, 18 years old, 17 year old, 18 year old, programmer, young programmer, youngest programmer"
       />
       <meta name="robots" content="index, follow" />
       <meta
@@ -36,15 +36,15 @@ const LayoutComponent = (props: {
       <meta name="theme-color" content="#DDD5D0" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://www.pls.vote/image.png" />
-      <meta name="twitter:site" content="@lucasjohnston" />
-      <meta name="twitter:creator" content="@lucasjohnston" />
-      <meta name="twitter:title" content="Lucas Johnston" />
+      <meta name="twitter:site" content="@lujstn" />
+      <meta name="twitter:creator" content="@lujstn" />
+      <meta name="twitter:title" content="Lucas Johnston Kurilov" />
       <meta
         name="twitter:description"
         content="making registering to vote simple, no matter where you are."
       />
       <meta property="og:url" content="https://www.pls.vote" />
-      <meta property="og:title" content="Lucas Johnston" />
+      <meta property="og:title" content="Lucas Johnston Kurilov" />
       <meta
         property="og:description"
         content="making registering to vote simple, no matter where you are."
@@ -66,10 +66,10 @@ const LayoutComponent = (props: {
         </Link>
         <Page>{props.children}</Page>
         <Footer>
-          <ExternalLink href="https://www.twitter.com/lucasjohnston">
-            <Subtitle active>made with ❤️ by @lucasjohnston</Subtitle>
+          <ExternalLink href="https://instagram.com/lujstn">
+            <Subtitle active>made with ❤️ by @lujstn</Subtitle>
           </ExternalLink>
-          <ExternalLink href="https://buymeacoff.ee/lucasjohnston">
+          <ExternalLink href="https://buymeacoff.ee/lujstn">
             <Copy active>
               This site costs £80/year to run
               <br />

@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "description": "Please vote!",
-  "author": "Lucas Johnston <developing@lucasco.de>",
+  "author": "Lucas Johnston Kurilov <code@lucasco.de>",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -70,7 +70,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucasjohnston/pls.vote.git"
+    "url": "git+https://github.com/lujstn/pls.vote.git"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0",
